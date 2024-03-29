@@ -48,7 +48,7 @@ def vizinhos(estado):
   return vizinhos
 
 def escalonador(t):
-  return round(1000 * math.exp(-0.01 * t), 2)
+  return round(1000 / math.log(t + 2), 2)
 
 def temperaSimulada():
   estadoInicial = estadosAleatorios(1)[0]
@@ -63,8 +63,6 @@ def temperaSimulada():
 
   while True:
     t = escalonador(contador)
-
-    print(no, t)
 
     if t <= 0:
       return no['estado']
@@ -84,7 +82,7 @@ def temperaSimulada():
         'estado': vizinhoAleatorio,
         'heuristica': heuristicaVizinho
       }
-    elif random.random() < math.exp(deltaE / t):
+    elif random.random() < math.exp(-deltaE / t):
       no = {
         'estado': vizinhoAleatorio,
         'heuristica': heuristicaVizinho

@@ -84,7 +84,7 @@ def algoritmoGenetico(tamanhoPopulacao, numeroGeracoes, probabilidadeMutacao):
 
 TAMANHO_POPULACAO = 100
 NUMERO_GERACOES = 1000
-PROBABILIDADE_MUTACAO = 0.1
+PROBABILIDADE_MUTACAO = 0.2
 
 estadoFinal = algoritmoGenetico(TAMANHO_POPULACAO, NUMERO_GERACOES, PROBABILIDADE_MUTACAO)
 print('estado final', estadoFinal, 'funcaoAdaptativa', funcaoAdaptatica(estadoFinal))
