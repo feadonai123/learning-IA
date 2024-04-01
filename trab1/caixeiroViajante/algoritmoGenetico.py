@@ -163,16 +163,16 @@ def exec(problema, qtdGeracoes, logs = False):
       melhorEstado = melhorEstadoGeracao
 
     if logs:
-      print("\nGERACAO", geracao)
-      print('Melhor estado geracao:', melhorEstadoGeracao['estado'], melhorEstadoGeracao['custo'])
-      print('Melhor estado global:', melhorEstado['estado'], melhorEstado['custo'])
+      print(f"{geracao}|{round(melhorEstadoGeracao['custo'], 0)}|{round(melhorEstado['custo'], 0)}|{melhorEstado['estado']}")
+      # print('Melhor estado geracao:', melhorEstadoGeracao['estado'], melhorEstadoGeracao['custo'])
+      # print('Melhor estado global:', melhorEstado['estado'], melhorEstado['custo'])
       # for individuo in populacao:
       #   print('Individuo:', individuo, 'Custo:', custo(individuo))
 
     # print('Melhor estado geração:', melhorEstadoGeracao['estado'], 'Custo:', melhorEstadoGeracao['custo'])
     # print('Melhor estado geral:', melhorEstado['estado'], 'Custo:', melhorEstado['custo'])
 
-  print("\nFIM AG")
-  print('Melhor estado:', melhorEstado['estado'])
-  print('Custo melhor estado:', melhorEstado['custo'])
+  # print("\nFIM AG")
+  # print('Melhor estado:', melhorEstado['estado'])
+  # print('Custo melhor estado:', melhorEstado['custo'])
   return melhorEstado['estado']
