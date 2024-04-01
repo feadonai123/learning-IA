@@ -1,0 +1,4007 @@
+Estado inicial:  [[8, 2, 4, 1, 0, 5, 6, 7, 9, 3], [5, 7, 6, 2, 8, 3, 9, 4, 0, 1], [8, 7, 2, 5, 6, 4, 1, 0, 9, 3], [6, 4, 8, 3, 5, 1, 2, 7, 9, 0], [0, 8, 9, 7, 6, 3, 1, 4, 2, 5], [9, 4, 2, 7, 1, 6, 3, 5, 8, 0], [2, 9, 6, 4, 7, 8, 0, 3, 5, 1], [0, 8, 6, 5, 1, 4, 3, 9, 2, 7], [5, 7, 3, 0, 4, 6, 9, 8, 2, 1], [2, 3, 9, 1, 8, 0, 6, 7, 4, 5], [3, 4, 0, 2, 7, 1, 5, 9, 6, 8], [3, 5, 0, 6, 7, 9, 8, 4, 1, 2], [0, 6, 5, 8, 3, 7, 2, 9, 1, 4], [9, 4, 3, 0, 8, 2, 1, 6, 5, 7], [1, 5, 4, 8, 0, 6, 3, 2, 9, 7], [1, 7, 8, 2, 5, 3, 6, 0, 9, 4], [3, 2, 7, 8, 5, 1, 4, 9, 0, 6], [5, 0, 4, 3, 1, 6, 2, 9, 7, 8], [5, 9, 2, 6, 4, 1, 8, 7, 3, 0], [2, 9, 7, 6, 0, 4, 5, 1, 3, 8], [0, 6, 4, 2, 9, 8, 3, 1, 5, 7], [7, 9, 8, 5, 1, 3, 2, 6, 4, 0], [4, 9, 1, 5, 6, 2, 8, 3, 7, 0], [2, 3, 6, 0, 5, 4, 7, 9, 1, 8], [1, 3, 8, 9, 0, 7, 2, 6, 5, 4], [5, 4, 1, 7, 8, 3, 9, 0, 6, 2], [1, 0, 2, 7, 8, 5, 6, 9, 4, 3], [1, 3, 0, 5, 6, 7, 9, 4, 8, 2], [9, 3, 2, 7, 0, 8, 4, 1, 5, 6], [9, 2, 8, 0, 1, 6, 7, 5, 3, 4], [5, 2, 8, 1, 3, 9, 4, 7, 6, 0], [9, 4, 6, 7, 0, 1, 5, 2, 8, 3], [4, 8, 3, 6, 7, 1, 0, 5, 2, 9], [8, 1, 7, 0, 4, 5, 2, 6, 3, 9], [4, 3, 0, 8, 1, 7, 2, 5, 6, 9], [3, 8, 1, 0, 7, 2, 4, 9, 5, 6], [5, 8, 7, 6, 3, 0, 9, 1, 2, 4], [7, 9, 6, 4, 3, 2, 8, 5, 1, 0], [7, 4, 2, 5, 8, 3, 1, 9, 0, 6], [2, 5, 3, 1, 4, 6, 0, 8, 7, 9], [2, 7, 1, 0, 3, 4, 6, 9, 5, 8], [7, 2, 6, 0, 1, 8, 5, 9, 4, 3], [1, 7, 4, 3, 6, 5, 2, 9, 0, 8], [1, 9, 8, 0, 3, 6, 5, 2, 4, 7], [5, 2, 0, 8, 9, 6, 7, 1, 4, 3], [4, 0, 8, 6, 5, 7, 2, 1, 9, 3], [4, 6, 3, 9, 2, 7, 8, 0, 1, 5], [2, 8, 4, 9, 5, 7, 3, 1, 6, 0], [2, 0, 8, 1, 4, 5, 9, 6, 7, 3], [9, 2, 7, 1, 5, 3, 8, 6, 4, 0]]
+Cidades:  [(82, 3), (88, 16), (29, 55), (84, 86), (57, 29), (10, 85), (35, 30), (54, 10), (80, 52), (78, 60)]
+Distancias:  [[0.0, 14.317821063276353, 74.24957912338628, 83.02409288875127, 36.069377593742864, 109.12378292562992, 54.20332093147061, 28.861739379323623, 49.040799340956916, 57.14017850864661], [14.317821063276353, 0.0, 70.7248188403477, 70.11419257183242, 33.61547262794322, 104.1393297462587, 54.817880294662984, 34.52535300326414, 36.87817782917155, 45.12205669071391], [74.24957912338628, 70.7248188403477, 0.0, 63.13477647065839, 38.2099463490856, 35.510561809129406, 25.709920264364882, 51.478150704935004, 51.088159097779204, 49.25444142409901], [83.02409288875127, 70.11419257183242, 63.13477647065839, 0.0, 63.071388124885914, 74.00675644831355, 74.41102068914255, 81.70679286326198, 34.23448553724738, 26.68332812825267], [36.069377593742864, 33.61547262794322, 38.2099463490856, 63.071388124885914, 0.0, 73.10950690573696, 22.02271554554524, 19.235384061671343, 32.526911934581186, 37.44329045369811], [109.12378292562992, 104.1393297462587, 35.510561809129406, 74.00675644831355, 73.10950690573696, 0.0, 60.41522986797286, 86.95401083331349, 77.38862965578342, 72.44998274671983], [54.20332093147061, 54.817880294662984, 25.709920264364882, 74.41102068914255, 22.02271554554524, 60.41522986797286, 0.0, 27.586228448267445, 50.08991914547278, 52.43090691567332], [28.861739379323623, 34.52535300326414, 51.478150704935004, 81.70679286326198, 19.235384061671343, 86.95401083331349, 27.586228448267445, 0.0, 49.39635614091387, 55.46169849544819], [49.040799340956916, 36.87817782917155, 51.088159097779204, 34.23448553724738, 32.526911934581186, 77.38862965578342, 50.08991914547278, 49.39635614091387, 0.0, 8.246211251235321], [57.14017850864661, 45.12205669071391, 49.25444142409901, 26.68332812825267, 37.44329045369811, 72.44998274671983, 52.43090691567332, 55.46169849544819, 8.246211251235321, 0.0]]
+
+GERACAO 0
+Melhor estado geracao: [3, 9, 8, 7, 0, 1, 5, 2, 6, 4] 377.95937145318595
+Melhor estado global: [3, 9, 8, 7, 0, 1, 5, 2, 6, 4] 377.95937145318595
+
+GERACAO 1
+Melhor estado geracao: [0, 1, 8, 9, 3, 7, 4, 6, 5, 2] 379.26580154290303
+Melhor estado global: [3, 9, 8, 7, 0, 1, 5, 2, 6, 4] 377.95937145318595
+
+GERACAO 2
+Melhor estado geracao: [8, 9, 4, 1, 0, 7, 6, 5, 2, 3] 343.36581690875215
+Melhor estado global: [8, 9, 4, 1, 0, 7, 6, 5, 2, 3] 343.36581690875215
+
+GERACAO 3
+Melhor estado geracao: [0, 1, 8, 9, 3, 2, 5, 6, 4, 7] 315.3059454062368
+Melhor estado global: [0, 1, 8, 9, 3, 2, 5, 6, 4, 7] 315.3059454062368
+
+GERACAO 4
+Melhor estado geracao: [0, 1, 8, 9, 3, 4, 7, 5, 2, 6] 370.81012429677156
+Melhor estado global: [0, 1, 8, 9, 3, 2, 5, 6, 4, 7] 315.3059454062368
+
+GERACAO 5
+Melhor estado geracao: [8, 3, 4, 1, 0, 7, 6, 5, 2, 9] 355.1135795333805
+Melhor estado global: [0, 1, 8, 9, 3, 2, 5, 6, 4, 7] 315.3059454062368
+
+GERACAO 6
+Melhor estado geracao: [0, 1, 8, 9, 3, 5, 2, 6, 7, 4] 304.24376689742536
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 7, 4] 304.24376689742536
+
+GERACAO 7
+Melhor estado geracao: [5, 2, 6, 4, 7, 1, 0, 8, 3, 9] 333.7303515004281
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 7, 4] 304.24376689742536
+
+GERACAO 8
+Melhor estado geracao: [8, 3, 9, 1, 0, 7, 4, 6, 2, 5] 329.0866421353082
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 7, 4] 304.24376689742536
+
+GERACAO 9
+Melhor estado geracao: [0, 1, 8, 9, 3, 5, 2, 6, 7, 4] 304.24376689742536
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 7, 4] 304.24376689742536
+
+GERACAO 10
+Melhor estado geracao: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 11
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 12
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 13
+Melhor estado geracao: [3, 9, 8, 1, 0, 4, 7, 6, 5, 2] 328.0770965233782
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 14
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 15
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 16
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 17
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 18
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 19
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 20
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 21
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 22
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 23
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 24
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 25
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 26
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 27
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 28
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 29
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 30
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 31
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 32
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 33
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 34
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 35
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 36
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 37
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 38
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 39
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 40
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 41
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 42
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 43
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 44
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 45
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 46
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 47
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 48
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 49
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 50
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 51
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 52
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 53
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 54
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 55
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 56
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 57
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 58
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 59
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 60
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 61
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 62
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 63
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 64
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 65
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 66
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 67
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 68
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 69
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 70
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 71
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 72
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 73
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 74
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 75
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 76
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 77
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 78
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 79
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 80
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 81
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 82
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 83
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 84
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 85
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 86
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 87
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 88
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 89
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 90
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 91
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 92
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 93
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 94
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 95
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 96
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 97
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 98
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 99
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 100
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 101
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 102
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 103
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 104
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 105
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 106
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 107
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 108
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 109
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 110
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 111
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 112
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 113
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 114
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 115
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 116
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 117
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 118
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 119
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 120
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 121
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 122
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 123
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 124
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 125
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 126
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 127
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 128
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 129
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 130
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 131
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 132
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 133
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 134
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 135
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 136
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 137
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 138
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 139
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 140
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 141
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 142
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 143
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 144
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 145
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 146
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 147
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 148
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 149
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 150
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 151
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 152
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 153
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 154
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 155
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 156
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 157
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 158
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 159
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 160
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 161
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 162
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 163
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 164
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 165
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 166
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 167
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 168
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 169
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 170
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 171
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 172
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 173
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 174
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 175
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 176
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 177
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 178
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 179
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 180
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 181
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 182
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 183
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 184
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 185
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 186
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 187
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 188
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 189
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 190
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 191
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 192
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 193
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 194
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 195
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 196
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 197
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 198
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 199
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 200
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 201
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 202
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 203
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 204
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 205
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 206
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 207
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 208
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 209
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 210
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 211
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 212
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 213
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 214
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 215
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 216
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 217
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 218
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 219
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 220
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 221
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 222
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 223
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 224
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 225
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 226
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 227
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 228
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 229
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 230
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 231
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 232
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 233
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 234
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 235
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 236
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 237
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 238
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 239
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 240
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 241
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 242
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 243
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 244
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 245
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 246
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 247
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 248
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 249
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 250
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 251
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 252
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 253
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 254
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 255
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 256
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 257
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 258
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 259
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 260
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 261
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 262
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 263
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 264
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 265
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 266
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 267
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 268
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 269
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 270
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 271
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 272
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 273
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 274
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 275
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 276
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 277
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 278
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 279
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 280
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 281
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 282
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 283
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 284
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 285
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 286
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 287
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 288
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 289
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 290
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 291
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 292
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 293
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 294
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 295
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 296
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 297
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 298
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 299
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 300
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 301
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 302
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 303
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 304
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 305
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 306
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 307
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 308
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 309
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 310
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 311
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 312
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 313
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 314
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 315
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 316
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 317
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 318
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 319
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 320
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 321
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 322
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 323
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 324
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 325
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 326
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 327
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 328
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 329
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 330
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 331
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 332
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 333
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 334
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 335
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 336
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 337
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 338
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 339
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 340
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 341
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 342
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 343
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 344
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 345
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 346
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 347
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 348
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 349
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 350
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 351
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 352
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 353
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 354
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 355
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 356
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 357
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 358
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 359
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 360
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 361
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 362
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 363
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 364
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 365
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 366
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 367
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 368
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 369
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 370
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 371
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 372
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 373
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 374
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 375
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 376
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 377
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 378
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 379
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 380
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 381
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 382
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 383
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 384
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 385
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 386
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 387
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 388
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 389
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 390
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 391
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 392
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 393
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 394
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 395
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 396
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 397
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 398
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 399
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 400
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 401
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 402
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 403
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 404
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 405
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 406
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 407
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 408
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 409
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 410
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 411
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 412
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 413
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 414
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 415
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 416
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 417
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 418
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 419
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 420
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 421
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 422
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 423
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 424
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 425
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 426
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 427
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 428
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 429
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 430
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 431
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 432
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 433
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 434
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 435
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 436
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 437
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 438
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 439
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 440
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 441
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 442
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 443
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 444
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 445
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 446
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 447
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 448
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 449
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 450
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 451
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 452
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 453
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 454
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 455
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 456
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 457
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 458
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 459
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 460
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 461
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 462
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 463
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 464
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 465
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 466
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 467
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 468
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 469
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 470
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 471
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 472
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 473
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 474
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 475
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 476
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 477
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 478
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 479
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 480
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 481
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 482
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 483
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 484
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 485
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 486
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 487
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 488
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 489
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 490
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 491
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 492
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 493
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 494
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 495
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 496
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 497
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 498
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 499
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 500
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 501
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 502
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 503
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 504
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 505
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 506
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 507
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 508
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 509
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 510
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 511
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 512
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 513
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 514
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 515
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 516
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 517
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 518
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 519
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 520
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 521
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 522
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 523
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 524
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 525
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 526
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 527
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 528
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 529
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 530
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 531
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 532
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 533
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 534
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 535
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 536
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 537
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 538
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 539
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 540
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 541
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 542
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 543
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 544
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 545
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 546
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 547
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 548
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 549
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 550
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 551
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 552
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 553
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 554
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 555
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 556
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 557
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 558
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 559
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 560
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 561
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 562
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 563
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 564
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 565
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 566
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 567
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 568
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 569
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 570
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 571
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 572
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 573
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 574
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 575
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 576
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 577
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 578
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 579
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 580
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 581
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 582
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 583
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 584
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 585
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 586
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 587
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 588
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 589
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 590
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 591
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 592
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 593
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 594
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 595
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 596
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 597
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 598
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 599
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 600
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 601
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 602
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 603
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 604
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 605
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 606
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 607
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 608
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 609
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 610
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 611
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 612
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 613
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 614
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 615
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 616
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 617
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 618
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 619
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 620
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 621
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 622
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 623
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 624
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 625
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 626
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 627
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 628
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 629
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 630
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 631
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 632
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 633
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 634
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 635
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 636
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 637
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 638
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 639
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 640
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 641
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 642
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 643
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 644
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 645
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 646
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 647
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 648
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 649
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 650
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 651
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 652
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 653
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 654
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 655
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 656
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 657
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 658
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 659
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 660
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 661
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 662
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 663
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 664
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 665
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 666
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 667
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 668
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 669
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 670
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 671
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 672
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 673
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 674
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 675
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 676
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 677
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 678
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 679
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 680
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 681
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 682
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 683
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 684
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 685
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 686
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 687
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 688
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 689
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 690
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 691
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 692
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 693
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 694
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 695
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 696
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 697
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 698
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 699
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 700
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 701
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 702
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 703
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 704
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 705
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 706
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 707
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 708
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 709
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 710
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 711
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 712
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 713
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 714
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 715
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 716
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 717
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 718
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 719
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 720
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 721
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 722
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 723
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 724
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 725
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 726
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 727
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 728
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 729
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 730
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 731
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 732
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 733
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 734
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 735
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 736
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 737
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 738
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 739
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 740
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 741
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 742
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 743
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 744
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 745
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 746
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 747
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 748
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 749
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 750
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 751
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 752
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 753
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 754
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 755
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 756
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 757
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 758
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 759
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 760
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 761
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 762
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 763
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 764
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 765
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 766
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 767
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 768
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 769
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 770
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 771
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 772
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 773
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 774
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 775
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 776
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 777
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 778
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 779
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 780
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 781
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 782
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 783
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 784
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 785
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 786
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 787
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 788
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 789
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 790
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 791
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 792
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 793
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 794
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 795
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 796
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 797
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 798
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 799
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 800
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 801
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 802
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 803
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 804
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 805
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 806
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 807
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 808
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 809
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 810
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 811
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 812
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 813
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 814
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 815
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 816
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 817
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 818
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 819
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 820
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 821
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 822
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 823
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 824
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 825
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 826
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 827
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 828
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 829
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 830
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 831
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 832
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 833
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 834
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 835
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 836
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 837
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 838
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 839
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 840
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 841
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 842
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 843
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 844
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 845
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 846
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 847
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 848
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 849
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 850
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 851
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 852
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 853
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 854
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 855
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 856
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 857
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 858
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 859
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 860
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 861
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 862
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 863
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 864
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 865
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 866
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 867
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 868
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 869
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 870
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 871
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 872
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 873
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 874
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 875
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 876
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 877
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 878
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 879
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 880
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 881
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 882
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 883
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 884
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 885
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 886
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 887
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 888
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 889
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 890
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 891
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 892
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 893
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 894
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 895
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 896
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 897
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 898
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 899
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 900
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 901
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 902
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 903
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 904
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 905
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 906
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 907
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 908
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 909
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 910
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 911
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 912
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 913
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 914
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 915
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 916
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 917
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 918
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 919
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 920
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 921
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 922
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 923
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 924
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 925
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 926
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 927
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 928
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 929
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 930
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 931
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 932
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 933
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 934
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 935
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 936
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 937
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 938
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 939
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 940
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 941
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 942
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 943
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 944
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 945
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 946
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 947
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 948
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 949
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 950
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 951
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 952
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 953
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 954
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 955
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 956
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 957
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 958
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 959
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 960
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 961
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 962
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 963
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 964
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 965
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 966
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 967
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 968
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 969
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 970
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 971
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 972
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 973
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 974
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 975
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 976
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 977
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 978
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 979
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 980
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 981
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 982
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 983
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 984
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 985
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 986
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 987
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 988
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 989
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 990
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 991
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 992
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 993
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 994
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 995
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 996
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 997
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 998
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+GERACAO 999
+Melhor estado geracao: [3, 9, 8, 1, 0, 7, 4, 6, 5, 2] 315.30594540623673
+Melhor estado global: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7] 291.47261578028395
+
+FIM AG
+Melhor estado: [0, 1, 8, 9, 3, 5, 2, 6, 4, 7]
+Custo melhor estado: 291.47261578028395
