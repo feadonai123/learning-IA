@@ -1,0 +1,101 @@
+teste1:
+'qtdGeracoes': 1000, 
+'probMutacao': 0.2, 
+64 cidades
+64 individuos
+return 1 / (pow(custo(estado), 10) + 1);
+todos: 1227.0,1726.0,1674.0,1898.0,1822.0
+média:1669.4
+maior:1898.0
+menor:1227.0
+
+teste2:
+'qtdGeracoes': 1000, 
+'probMutacao': 0.2, 
+64 cidades
+64 individuos
+return 1 / (pow(custo(estado), 2) + 1);
+todos: 2396.0,2529.0,2499.0,2556.0,2465.0
+média: 2489
+maior: 2556.0
+menor: 2396.0
+
+teste3
+'qtdGeracoes': 1000, 
+'probMutacao': 0.3, 
+64 cidades
+64 individuos
+return 1 / (pow(custo(estado), 10) + 1);
+todos:  2066.0,1755.0,1994.0,1763.0,1912.0,1781.0,1816.0,1951.0,1621.0,
+média: 1851
+maior: 2066.0
+menor: 1621.0
+
+teste4:
+'qtdGeracoes': 1000, 
+'probMutacao': 0.1, 
+64 cidades
+64 individuos
+return 1 / (pow(custo(estado), 10) + 1);
+média: 1172
+todos:1154.0,1262.0,1199.0,1087.0,1072.0,1153.0,1287.0,1091.0,1153.0,1262.0
+maior: 1287.0
+menor: 1072.0
+
+teste5:
+'qtdGeracoes': 1000, 
+'probMutacao': 0.01, 
+64 cidades
+64 individuos
+return 1 / (pow(custo(estado), 10) + 1);
+média: 1454.4
+todos: 1308.0,1638.0,1485.0,1247.0,1591.0,1510.0,1537.0,1344.0,1500.0,1384.0
+maior:1638.0
+menor:1247.0
+
+teste6:
+'qtdGeracoes': 1000, 
+'probMutacao': 0.05, 
+64 cidades
+64 individuos
+return 1 / (pow(custo(estado), 10) + 1);
+média: 1212.7
+todos: 1265.0,1270.0,1122.0,1163.0,1098.0,1226.0,1158.0,1400.0,1079.0,1346.0
+maior:1400.0
+menor:1079.0
+
+teste7:
+'qtdGeracoes': 1000, 
+'probMutacao': 0.1, 
+64 cidades
+100 individuos
+return 1 / (pow(custo(estado), 10) + 1);
+média: 1222.9
+todos: 1736.0,1052.0,1448.0,1061.0,1210.0,1025.0,1380.0,1046.0,1119.0,1152.0
+maior:1736.0
+menor:1046.0
+
+teste8:
+'qtdGeracoes': 5000, 
+'probMutacao': 0.1, 
+64 cidades
+64 individuos
+return 1 / (pow(custo(estado), 10) + 1);
+média:1052
+todos: 1122.0,1136.0,1040.0,1075.0,1117.0,1018.0,952.0,1110.0,921.0,1029.0
+maior:1136.0
+menor:921.0
+
+
+teste9:
+'qtdGeracoes': 5000, 
+'probMutacao': 0.05, 
+64 cidades
+128 individuos
+return 1 / (pow(custo(estado), 10) + 1);
+média:1001.4
+todos: 1032.0,1133.0,878.0,995.0,955.0,900.0,1016.0,1039.0,1015.0,1051.0
+maior:1133.0
+menor:878.0
+
+

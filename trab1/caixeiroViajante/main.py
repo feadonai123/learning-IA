@@ -30,6 +30,9 @@ class Agente:
       self.distancias = options['distancias']
       self.estadoInicial = options['estadoInicial']
       self.logs = options['logs'] if 'logs' in options else False
+      if self.logs and 'arquivo' not in options:
+        raise ValueError('Arquivo de log não informado')
+      self.arquivo = options['arquivo'] if 'arquivo' in options else None
 
   def atualizarEstado(self, percepcao):
     self.estado = percepcao
@@ -48,7 +51,7 @@ class Agente:
     if self.tipoAgente == TiposAgentes.TEMPERA_SIMULADA:
       solucao = temperaSimulada.exec(problema, self.logs)
     elif self.tipoAgente == TiposAgentes.ALGORITMO_GENETICO:
-      solucao = algoritmoGenetico.exec(problema, self.qtdGeracoes, self.logs)
+      solucao = algoritmoGenetico.exec(problema, self.qtdGeracoes, self.logs, self.arquivo)
 
     # fase execução da solução: Aqui o ideal seria o agente retornar cada ação individualmente que levará a solução encontrada. Para facilitar, estou retornando a solução completa
     return solucao

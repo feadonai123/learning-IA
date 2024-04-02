@@ -26,7 +26,7 @@ def formularProblema(estado, distancias, probMutacao):
     return custo
 
   def funcaoAdaptativa(estado):
-    return 1 / (pow(custo(estado), 8) + 1);
+    return 1 / (pow(custo(estado), 10) + 1);
 
   def cruzamento(pai1, pai2):
     pontoCrossOverInicio = random.randint(0, len(pai1) // 2)
@@ -103,7 +103,7 @@ def formularProblema(estado, distancias, probMutacao):
     # 'testeObjetivo'
   }
 
-def exec(problema, qtdGeracoes, logs = False):
+def exec(problema, qtdGeracoes, logs = False, arquivo=None):
   estadoInicial = problema['estadoInicial']
   custo = problema['custo']
   cruzamento = problema['cruzamento']
@@ -144,7 +144,7 @@ def exec(problema, qtdGeracoes, logs = False):
 
       novaPopulacao.append(filho1)
       novaPopulacao.append(filho2)
-     
+    
       if custo(filho1) < melhorEstadoGeracao['custo']:
         melhorEstadoGeracao = {
           'estado': filho1,
@@ -163,11 +163,11 @@ def exec(problema, qtdGeracoes, logs = False):
       melhorEstado = melhorEstadoGeracao
 
     if logs:
-      print(f"{geracao}|{round(melhorEstadoGeracao['custo'], 0)}|{round(melhorEstado['custo'], 0)}|{melhorEstado['estado']}")
-      # print('Melhor estado geracao:', melhorEstadoGeracao['estado'], melhorEstadoGeracao['custo'])
-      # print('Melhor estado global:', melhorEstado['estado'], melhorEstado['custo'])
-      # for individuo in populacao:
-      #   print('Individuo:', individuo, 'Custo:', custo(individuo))
+      arquivo.write(f"{geracao}|{round(melhorEstadoGeracao['custo'], 0)}|{round(melhorEstado['custo'], 0)}|{melhorEstado['estado']}\n")
+    # print('Melhor estado geracao:', melhorEstadoGeracao['estado'], melhorEstadoGeracao['custo'])
+    # print('Melhor estado global:', melhorEstado['estado'], melhorEstado['custo'])
+    # for individuo in populacao:
+    #   print('Individuo:', individuo, 'Custo:', custo(individuo))
 
     # print('Melhor estado geração:', melhorEstadoGeracao['estado'], 'Custo:', melhorEstadoGeracao['custo'])
     # print('Melhor estado geral:', melhorEstado['estado'], 'Custo:', melhorEstado['custo'])
